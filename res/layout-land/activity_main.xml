@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity = "center" 
+    tools:context=".MainActivity"
+    android:background="#01478D" >
+    
+    <ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:src="@drawable/ulb_flammes_layer" />
+
+    <TableLayout
+    	android:id="@+id/tableLayout1"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:gravity = "center" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity = "center"
+            android:padding="10dp" >
+
+            <Button
+                android:id="@+id/bNews"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:drawableTop="@drawable/ic_news"
+                android:text="News"
+                android:background="@drawable/custom_button" />
+
+            <Button
+                android:id="@+id/bHoraire"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:drawableTop="@drawable/ic_clock"
+                android:text="Horaire"
+                android:background="@drawable/custom_button" />
+            
+            <Button
+        		android:id="@+id/bPlan"
+        		android:layout_width="100dp"
+        		android:layout_height="100dp"
+        		android:layout_marginLeft="10dp"
+        		android:drawableTop="@drawable/ic_map"
+        		android:text="Plans des Campus"
+        		android:background="@drawable/custom_button" />
+            
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity = "center" >
+                
+            <Button
+                android:id="@+id/bCours"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:drawableTop="@drawable/ic_folder"
+                android:text="Mes Cours"
+                android:background="@drawable/custom_button" />
+            
+            <Button
+        		android:id="@+id/bFolklore"
+        		android:layout_width="100dp"
+        		android:layout_height="100dp"
+        		android:layout_marginLeft="10dp"
+        		android:text="Folklore"
+        		android:drawableTop="@drawable/ic_logo_cp"
+        		android:background="@drawable/custom_button" />
+            
+            <Button
+        		android:id="@+id/bInfo"
+        		android:layout_width="100dp"
+        		android:layout_height="100dp"
+        		android:layout_marginLeft="10dp"
+        		android:text="Info Utiles"
+        		android:drawableTop="@drawable/ic_info"
+        		android:background="@drawable/custom_button" />
+            
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>

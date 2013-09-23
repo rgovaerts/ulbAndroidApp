@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayMesCoursMenu"
+    android:background="#01478D" >
+    
+    <ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:src="@drawable/ulb_flammes_layer" />
+    
+    <TableLayout
+    	android:id="@+id/tableLayout1"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:gravity = "top" >
+    	
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:padding="5dp" >
+    
+    		<Spinner
+    			android:id="@+id/annee_spinner"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/custom_button" />
+    		
+    	</TableRow>
+    		
+    	<TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:padding="5dp" >
+    
+    		<Spinner
+    			android:id="@+id/option_spinner"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:background="@drawable/custom_button" />
+    		
+    	</TableRow>
+    	
+    	<TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:padding="5dp" >
+    
+    		<Button
+        		android:id="@+id/Save_button"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="Enregistrer"
+        		android:background="@drawable/custom_button" />
+    		
+    	</TableRow>
+    	
+    </TableLayout>
+
+</RelativeLayout>
