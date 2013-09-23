@@ -12,8 +12,11 @@ To see the bugs of the actual version look at the bugs.txt file
 TODO:
 
 -implement student account and connexion to res publicae
+
 -rectify bugs when in webview when sliding from left to right
+
 -implement news page
+
 -LOADS of other stuff...
 
 
