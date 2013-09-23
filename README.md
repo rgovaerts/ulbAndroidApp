@@ -1,7 +1,7 @@
-ulbPolytechAndroidApp
+ulbAndroidApp
 =====================
 
-This is the repository for the non official ulb polytech android app
+This is the repository for the non official ulb android app
 
 Minumum SDK version 10
 
@@ -11,16 +11,11 @@ To see the bugs of the actual version look at the bugs.txt file
 
 TODO:
 
-Implement database with all courses 
-
-Use twitter4J Library to:
-
-	-get the news (#ulb)
-	
-	-get the cours
+-implement student account and connexion to res publicae
+-rectify bugs when in webview when sliding from left to right
+-implement news page
+-LOADS of other stuff...
 
 
 CHANGES:
-Finally we will not generate the database from *.txt but from a database document direcly 
-(it can be open with Libre Office and its called ulbDatabase).
 
